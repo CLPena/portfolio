@@ -1,0 +1,16 @@
+{
+  "name": "Cristina Peña Portfolio",
+  "short_name": "Portfolio",
+  "description": "Cristina Peña's web portfolio showcasing her work and projects.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "./C.png",
+      "sizes": "500x500",
+      "type": "image/png"
+    }
+  ]
+}
