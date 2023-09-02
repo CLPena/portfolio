@@ -1,4 +1,5 @@
 @import '../../sass/_variables.scss';
+@import '../../sass/_fonts.scss';
 
 .educationContainer {
     display: flex;
@@ -13,6 +14,7 @@
 
 .educationCardTitle {
     color: $teal;
+    font-family: OpenSauceSansBold;
 }
 
 .educationCardTitle {

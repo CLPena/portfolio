@@ -1,12 +1,16 @@
 @import '../../sass/_variables.scss';
+@import '../../sass/_fonts.scss';
 
 .myWorkTitle {
     margin-top: 0;
+    margin-bottom: 1rem;
     color: $teal;
+    font-family: OpenSauceSansBold;
 }
 
 .myWorkSubtitle {
     margin: 0 0 1rem;
+    font-family: OpenSauceSansBold;
 }
 
 .myWorkText {

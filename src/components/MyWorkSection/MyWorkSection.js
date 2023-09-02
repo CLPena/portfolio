@@ -35,6 +35,26 @@ const MyWorkSection = () => {
                 >
                     You can check out our web component library and UI documentation on Storybook here.
                 </a>
+                {' '}
+                On Storybook,
+                {' '}
+                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-button--sizes" className={styles.storybookLink}>
+                    Button,
+                </a>
+                {' '}
+                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-modal--basic-modal" className={styles.storybookLink}>
+                    Modal,
+                </a>
+                {' '}
+                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-dialog--basic-dialog" className={styles.storybookLink}>
+                    Dialog,
+                </a>
+                {' '}
+                   and
+                {' '}
+                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-toast--basic-toast" className={styles.storybookLink}>
+                Toast
+                </a> are good examples of my recent work.
             </p>
             <h4 className={styles.myWorkSubtitle}>Accessibility</h4>
             <p className={styles.myWorkText}>
