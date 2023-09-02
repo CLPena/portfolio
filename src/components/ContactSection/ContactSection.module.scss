@@ -1,0 +1,42 @@
+@import '../../sass/_fonts.scss';
+@import '../../sass/_variables.scss';
+
+.contactWrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.contactList {
+   list-style: none;
+   display: flex; 
+   flex-flow: row wrap;
+   justify-content: center;
+   gap: 1rem;
+   margin: 0;
+   padding: 0;
+}
+
+.contactLink {
+    font-family: OpenSauceSansRegular;
+    display: flex;
+    gap: .25rem;
+    margin: 0;
+    padding: 0 0 .25rem;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    outline-color: $teal;
+
+    &:hover {
+      color: $teal;
+      border-bottom: 2px solid $teal;
+      font-weight: bold;
+    }
+
+    &:visited {
+      color: black;
+      &:hover {
+        color: $teal;
+      }
+    }
+}

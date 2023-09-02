@@ -1,0 +1,14 @@
+@import '../../sass/_fonts.scss';
+
+.App {
+  font-family: OpenSauceSansRegular;
+  line-height: 1.4;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}

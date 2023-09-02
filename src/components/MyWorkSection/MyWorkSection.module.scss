@@ -1,0 +1,53 @@
+@import '../../sass/_variables.scss';
+
+.myWorkTitle {
+    margin-top: 0;
+    color: $teal;
+}
+
+.myWorkSubtitle {
+    margin: 0 0 1rem;
+}
+
+.myWorkText {
+    margin: 0 0 1rem;
+
+    &:last-of-type {
+        margin: 0;
+    }
+}
+
+.resumeLink {
+    font-family: OpenSauceSansRegular;
+    display: inline-flex;
+    gap: .25rem;
+    margin: 1rem 0 0;
+    padding: 0 0 .25rem;
+    text-decoration: underline;
+    color: $teal;
+    outline-color: $teal;
+
+    &:hover {
+      font-weight: bold;
+    }
+
+    &:visited {
+      color: $teal;
+      &:hover {
+        color: $teal;
+      }
+    }
+}
+
+.storybookLink {
+    outline-color: $teal;
+
+    &:hover {
+        color: $teal;
+        font-weight: bold;
+    }
+
+    &:visited {
+        color: $teal;
+    }
+}

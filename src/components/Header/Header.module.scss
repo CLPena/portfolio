@@ -1,0 +1,55 @@
+@import '../../sass/_fonts.scss';
+@import '../../sass/_variables.scss';
+
+@keyframes colorCycle {
+    0%, 100% { border-color: $red; }
+    25% { border-color: $orange; }
+    50% { border-color: $yellow; }
+    75% { border-color: $teal; }
+  }
+
+.Header {
+    padding: 1.5rem;
+    position: relative;
+
+    @media (max-width: 1000px) {
+        border-bottom: 4px solid $red;
+        animation: colorCycle 8s infinite;
+    }
+}
+
+.headerText {
+    text-align: left;
+}
+
+.headerTitle {
+    font-family: LoubagRegular;
+    font-size: 6rem;
+    margin: 0;
+
+    @media (max-width: 1000px) {
+        font-size: 4rem;
+      }
+}
+
+.headerSubtitle {
+    text-transform: uppercase;
+    letter-spacing: .75rem;
+    margin: 0;
+
+    @media (max-width: 1000px) {
+        font-size: 1rem;
+      }
+}
+
+.cornerSquiggles {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+    @media (max-width: 1000px) {
+        display: none;
+      }
+}
+

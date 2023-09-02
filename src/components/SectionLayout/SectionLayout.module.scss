@@ -1,0 +1,38 @@
+@import '../../sass/_fonts.scss';
+@import '../../sass/variables.scss';
+
+.SectionLayout {
+   margin: 4rem 1.5rem 0;
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+}
+
+.sectionLayoutHeader {
+   font-family: LoubagRegular;
+   text-transform: uppercase;
+   margin: 0 0 1rem;
+   text-align: center;
+   max-width: 1200px;
+}
+
+.sectionLayoutText {
+    font-family: OpenSauceSansRegular;
+    margin: 0 auto;
+    padding: 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.sectionLayoutContent {
+   width: 100%;
+   max-width: 36rem;
+   margin: 0 auto;
+}
+
+.sectionLayoutIcon {
+   max-height: 5.3rem;
+   margin-bottom: 1rem;
+}
