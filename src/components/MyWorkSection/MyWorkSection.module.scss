@@ -26,10 +26,7 @@
     text-decoration: underline;
     color: $teal;
     outline-color: $teal;
-
-    &:hover {
-      font-weight: bold;
-    }
+    font-weight: bold;
 
     &:visited {
       color: $teal;
@@ -41,10 +38,11 @@
 
 .storybookLink {
     outline-color: $teal;
+    color: $teal;
+    font-weight: bold;
 
     &:hover {
         color: $teal;
-        font-weight: bold;
     }
 
     &:visited {
