@@ -52,8 +52,8 @@ const MyWorkSection = () => {
                 {' '}
                    and
                 {' '}
-                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-button--sizes" className={styles.storybookLink}>
-                    Button
+                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-menu--basic" className={styles.storybookLink}>
+                    Menu
                 </a>
                 {' '}
                 are good examples of my recent work.
