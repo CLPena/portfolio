@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './MyWorkSection.module.scss';
 import SectionLayout from '../SectionLayout/SectionLayout';
-import ResumePDF from './CLPenaResume.pdf';
 import PortfolioPDF from './CLPenaTechnicalWritingSamples.pdf';
 import lightbulb from './lightbulb.svg';
 import * as Unicons from '@iconscout/react-unicons';
@@ -101,10 +100,6 @@ const MyWorkSection = () => {
                 front end engineer from 2020-2021, where I implemented various user-facing features, working collaboratively with back end engineers,
                 This background informs my holistic approach to my role as a UX engineer.
             </p>
-            <a href={ResumePDF} target="_blank" rel="noreferrer" className={styles.resumeLink}>
-                <Unicons.UilFile />
-                View resume
-            </a>
         </SectionLayout>
     )
 }

@@ -21,7 +21,6 @@
     }
 }
 
-.resumeLink,
 .portfolioLink {
     font-family: OpenSauceSansRegular;
     display: inline-flex;
@@ -38,10 +37,6 @@
         color: $teal;
       }
     }
-}
-
-.resumeLink {
-    margin: 1rem 0 0;
 }
 
 .portfolioLink {
