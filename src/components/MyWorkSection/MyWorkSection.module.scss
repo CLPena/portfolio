@@ -21,11 +21,11 @@
     }
 }
 
-.resumeLink {
+.resumeLink,
+.portfolioLink {
     font-family: OpenSauceSansRegular;
     display: inline-flex;
     gap: .25rem;
-    margin: 1rem 0 0;
     padding: 0 0 .25rem;
     text-decoration: underline;
     color: $teal;
@@ -38,6 +38,14 @@
         color: $teal;
       }
     }
+}
+
+.resumeLink {
+    margin: 1rem 0 0;
+}
+
+.portfolioLink {
+    margin: 0 0 1rem;
 }
 
 .storybookLink {

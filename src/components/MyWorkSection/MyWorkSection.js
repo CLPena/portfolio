@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './MyWorkSection.module.scss';
 import SectionLayout from '../SectionLayout/SectionLayout';
 import ResumePDF from './CLPenaResume.pdf';
+import PortfolioPDF from './CLPenaTechnicalWritingSamples.pdf';
 import lightbulb from './lightbulb.svg';
 import * as Unicons from '@iconscout/react-unicons';
 
@@ -73,16 +74,14 @@ const MyWorkSection = () => {
                 Storybook
                 </a>
                 {' '}
-                or
-                {' '}
-                <a href="https://drive.google.com/drive/folders/1qrhf3o-KOYr_c4vaEu8xgI-0I0XsLfnt?usp=sharing" className={styles.storybookLink}>
-                in my technical writing portfolio.
-                </a>
-                {' '}
-                I hope to highlight my core skills in these examples,
+                or in my technical writing portfolio. I hope to highlight my core skills in these examples,
                 showcasing my dedication to creating documentation that fosters seamless cross-functional
                 collaboration between teams.
             </p>
+            <a href={PortfolioPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
+                <Unicons.UilFile />
+                View portfolio
+            </a>
             <h4 className={styles.myWorkSubtitle}>Learning and Development</h4>
             <p className={styles.myWorkText}>
                 Leveraging my extensive background in secondary and adult education, I have established a role as an educator on the UX engineering team.
