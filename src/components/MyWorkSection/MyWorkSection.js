@@ -30,17 +30,13 @@ const MyWorkSection = () => {
                 code samples publicly.
                 {' '}
                 <a
-                    href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/algolia-experimentaljobcard--example"
+                    href="https://vivian-storybook.s3.amazonaws.com/master/index.html"
                     className={styles.storybookLink}    
                 >
                     You can check out our web component library and UI documentation on Storybook here.
                 </a>
                 {' '}
                 On Storybook,
-                {' '}
-                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-button--sizes" className={styles.storybookLink}>
-                    Button,
-                </a>
                 {' '}
                 <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-modal--basic-modal" className={styles.storybookLink}>
                     Modal,
@@ -50,23 +46,61 @@ const MyWorkSection = () => {
                     Dialog,
                 </a>
                 {' '}
+                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-toast--basic-toast" className={styles.storybookLink}>
+                    Toast,
+                </a> 
+                {' '}
                    and
                 {' '}
-                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-toast--basic-toast" className={styles.storybookLink}>
-                Toast
-                </a> are good examples of my recent work.
+                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-button--sizes" className={styles.storybookLink}>
+                    Button
+                </a>
+                {' '}
+                are good examples of my recent work.
+            </p>
+            <h4 className={styles.myWorkSubtitle}>Technical Writing</h4>
+            <p className={styles.myWorkText}>
+                As a UX Engineer, I'm particularly excited about my technical writing contributions, with an
+                extensive track record of writing comprehensive documentation for design system tokens and
+                components. I've created clear and user-friendly guides for varied audiences (both technical
+                and non-technical) covering topics from component usage to typography guides to accessibility
+                best practices. Examples of my work can be found in our web component library on 
+                {' '}
+                <a
+                    href="https://vivian-storybook.s3.amazonaws.com/master/index.html"
+                    className={styles.storybookLink}    
+                >
+                Storybook
+                </a>
+                {' '}
+                or
+                {' '}
+                <a href="https://drive.google.com/drive/folders/1qrhf3o-KOYr_c4vaEu8xgI-0I0XsLfnt?usp=sharing" className={styles.storybookLink}>
+                in my technical writing portfolio.
+                </a>
+                {' '}
+                I hope to highlight my core skills in these examples,
+                showcasing my dedication to creating documentation that fosters seamless cross-functional
+                collaboration between teams.
+            </p>
+            <h4 className={styles.myWorkSubtitle}>Learning and Development</h4>
+            <p className={styles.myWorkText}>
+                Leveraging my extensive background in secondary and adult education, I have established a role as an educator on the UX engineering team.
+                I particularly enjoy distilling complex technical subjects into clear instructional materials and presentations for developers
+                and designers. I prioritize delivering an engaging curriculum, ensuring that content is appropriate for diverse audiences and learning styles.
             </p>
             <h4 className={styles.myWorkSubtitle}>Accessibility</h4>
             <p className={styles.myWorkText}>
-                A champion of accessibility, I've spearheaded initiatives for mobile and web,
-                establishing comprehensive code standards, writing detailed documentation, and hosting
-                educational sessions for developers. 
+                Web accessibility is a core motivator in my work. As such, I've lead initiatives with both mobile and web teams,
+                creating in-depth code standards, writing detailed documentation, and hosting
+                educational sessions for developers. In design reviews, I maintain a keen eye for accessibility pitfalls
+                and provide thoughtful, constructive feedback helping designers update their designs to meet all accessibility standards.
             </p>
             <h4 className={styles.myWorkSubtitle}>Front End Engineering</h4>
             <p className={styles.myWorkText}>
-                Before joining Vivian's UX engineering team, I significantly contributed as a
-                front end engineer from 2020-2021, optimizing interfaces and conducting thorough code reviews.
-                This background enriches my holistic approach to UX and design systems work.
+                Before joining Vivian's UX engineering team, I contributed significantly as a
+                front end engineer from 2020-2021, where I implemented various user-facing features, working collaboratively with back end engineers,
+                This background informs my holistic approach to my role as a UX engineer.
             </p>
             <a href={ResumePDF} target="_blank" rel="noreferrer" className={styles.resumeLink}>
                 <Unicons.UilFile />
