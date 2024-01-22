@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './MyWorkSection.module.scss';
 import SectionLayout from '../SectionLayout/SectionLayout';
 import PortfolioPDF from './CLPenaTechnicalWritingSamples.pdf';
+import LearningAndDevelopmentPDF from './CLPenaLearningAndDevelopmentSamples.pdf';
 import lightbulb from './lightbulb.svg';
 import * as Unicons from '@iconscout/react-unicons';
 
@@ -79,14 +80,19 @@ const MyWorkSection = () => {
             </p>
             <a href={PortfolioPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
                 <Unicons.UilFile />
-                View portfolio
+                View writing portfolio
             </a>
             <h4 className={styles.myWorkSubtitle}>Learning and Development</h4>
             <p className={styles.myWorkText}>
                 Leveraging my extensive background in secondary and adult education, I have established a role as an educator on the UX engineering team.
                 I particularly enjoy distilling complex technical subjects into clear instructional materials and presentations for developers
                 and designers. I prioritize delivering an engaging curriculum, ensuring that content is appropriate for diverse audiences and learning styles.
+                Samples and recordings of presentations can be viewed in my portfolio below.
             </p>
+            <a href={LearningAndDevelopmentPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
+                <Unicons.UilFile />
+                View learning and development portfolio
+            </a>
             <h4 className={styles.myWorkSubtitle}>Accessibility</h4>
             <p className={styles.myWorkText}>
                 Web accessibility is a core motivator in my work. As such, I've lead initiatives with both mobile and web teams,
