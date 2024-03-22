@@ -26,9 +26,9 @@ const ContactSection = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:Cristina@CLPena.com" className={styles.contactLink}>
+                        <a href="mailto:CristinaLPena@gmail.com" className={styles.contactLink}>
                             <Unicons.UilEnvelope />
-                            Cristina@CLPena.com
+                            CristinaLPena@gmail.com
                         </a>
                     </li>
                 </ul>
