@@ -18,11 +18,11 @@ const MyWorkSection = () => {
             </h3>
             <h4 className={styles.myWorkSubtitle}>Technical Writing</h4>
             <p className={styles.myWorkText}>
-                As a UX Engineer, I'm particularly excited about my technical writing contributions, with an
-                extensive track record of writing comprehensive documentation for design system tokens and
-                components. I've created clear and user-friendly guides for varied audiences (both technical
-                and non-technical) covering topics from component usage to typography to accessibility
-                best practices. Examples of my work can be found in our web component library on 
+                As a UX Engineer, I have made significant contributions through technical writing, with a
+                strong focus on creating comprehensive documentation for design system tokens and components.
+                I develop clear and user-friendly guides for varied audiences (both technical
+                and non-technical) covering topics such as component usage, typography, and accessibility best practices.
+                Examples of my work can be found in our web component library on 
                 {' '}
                 <a
                     href="https://vivian-storybook.s3.amazonaws.com/master/index.html"
@@ -40,9 +40,7 @@ const MyWorkSection = () => {
                 technical writing portfolio.
                 </a>
                 {' '}
-                 I hope to highlight my core skills in these examples,
-                showcasing my dedication to creating documentation that fosters seamless cross-functional
-                collaboration between teams.
+                These examples highlight my core skills and dedication to crafting documentation that promotes seamless cross-functional collaboration.
             </p>
             <a href={PortfolioPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
                 <Unicons.UilFile />
