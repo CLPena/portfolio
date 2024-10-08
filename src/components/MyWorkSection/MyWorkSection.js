@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './MyWorkSection.module.scss';
 import SectionLayout from '../SectionLayout/SectionLayout';
-import PortfolioPDF from './CLPenaTechnicalWritingSamples.pdf';
-import LearningAndDevelopmentPDF from './CLPenaLearningAndDevelopmentSamples.pdf';
+import PortfolioPDF from './TechnicalWritingPortfolioCLPena.pdf';
+import DeveloperEducationPDF from './DeveloperEducationPortfolioCLPena.pdf';
 import lightbulb from './lightbulb.svg';
 import * as Unicons from '@iconscout/react-unicons';
 
@@ -16,6 +16,49 @@ const MyWorkSection = () => {
             <h3 className={styles.myWorkTitle}>
                 Vivian Health | UX Engineer | 2020 - Present
             </h3>
+            <h4 className={styles.myWorkSubtitle}>Technical Writing</h4>
+            <p className={styles.myWorkText}>
+                As a UX Engineer, I'm particularly excited about my technical writing contributions, with an
+                extensive track record of writing comprehensive documentation for design system tokens and
+                components. I've created clear and user-friendly guides for varied audiences (both technical
+                and non-technical) covering topics from component usage to typography to accessibility
+                best practices. Examples of my work can be found in our web component library on 
+                {' '}
+                <a
+                    href="https://vivian-storybook.s3.amazonaws.com/master/index.html"
+                    className={styles.storybookLink}    
+                >
+                Storybook
+                </a>
+                {' '}
+                or in my 
+                {' '}
+                <a
+                    href={PortfolioPDF}
+                    className={styles.storybookLink}    
+                >
+                technical writing portfolio.
+                </a>
+                {' '}
+                 I hope to highlight my core skills in these examples,
+                showcasing my dedication to creating documentation that fosters seamless cross-functional
+                collaboration between teams.
+            </p>
+            <a href={PortfolioPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
+                <Unicons.UilFile />
+                View technical writing portfolio
+            </a>
+            <h4 className={styles.myWorkSubtitle}>Developer Education</h4>
+            <p className={styles.myWorkText}>
+                Leveraging my extensive background in secondary and adult education, I have established a role as an educator on the UX engineering team.
+                I particularly enjoy distilling complex technical subjects into clear instructional materials and presentations for developers
+                and designers. I prioritize delivering an engaging curriculum, ensuring that content is appropriate for diverse audiences and learning styles.
+                Samples and recordings of presentations can be viewed in my portfolio below.
+            </p>
+            <a href={DeveloperEducationPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
+                <Unicons.UilFile />
+                View developer education portfolio
+            </a>
             <h4 className={styles.myWorkSubtitle}>Design Systems</h4>
             <p className={styles.myWorkText}>
                 As a dedicated UX Engineer at Vivian Health, I've played an instrumental
@@ -59,40 +102,6 @@ const MyWorkSection = () => {
                 {' '}
                 are good examples of my recent work.
             </p>
-            <h4 className={styles.myWorkSubtitle}>Technical Writing</h4>
-            <p className={styles.myWorkText}>
-                As a UX Engineer, I'm particularly excited about my technical writing contributions, with an
-                extensive track record of writing comprehensive documentation for design system tokens and
-                components. I've created clear and user-friendly guides for varied audiences (both technical
-                and non-technical) covering topics from component usage to typography guides to accessibility
-                best practices. Examples of my work can be found in our web component library on 
-                {' '}
-                <a
-                    href="https://vivian-storybook.s3.amazonaws.com/master/index.html"
-                    className={styles.storybookLink}    
-                >
-                Storybook
-                </a>
-                {' '}
-                or in my technical writing portfolio. I hope to highlight my core skills in these examples,
-                showcasing my dedication to creating documentation that fosters seamless cross-functional
-                collaboration between teams.
-            </p>
-            <a href={PortfolioPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
-                <Unicons.UilFile />
-                View writing portfolio
-            </a>
-            <h4 className={styles.myWorkSubtitle}>Learning and Development</h4>
-            <p className={styles.myWorkText}>
-                Leveraging my extensive background in secondary and adult education, I have established a role as an educator on the UX engineering team.
-                I particularly enjoy distilling complex technical subjects into clear instructional materials and presentations for developers
-                and designers. I prioritize delivering an engaging curriculum, ensuring that content is appropriate for diverse audiences and learning styles.
-                Samples and recordings of presentations can be viewed in my portfolio below.
-            </p>
-            <a href={LearningAndDevelopmentPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
-                <Unicons.UilFile />
-                View learning and development portfolio
-            </a>
             <h4 className={styles.myWorkSubtitle}>Accessibility</h4>
             <p className={styles.myWorkText}>
                 Web accessibility is a core motivator in my work. As such, I've lead initiatives with both mobile and web teams,
