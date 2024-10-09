@@ -18,8 +18,8 @@ const MyWorkSection = () => {
             </h3>
             <h4 className={styles.myWorkSubtitle}>Technical Writing</h4>
             <p className={styles.myWorkText}>
-                As a UX Engineer, I have made significant contributions through technical writing, with a
-                strong focus on creating comprehensive documentation for design system tokens and components.
+                As a UX Engineer, I have made significant contributions through technical writing, focusing
+                on creating comprehensive documentation for design system tokens and components.
                 I develop clear and user-friendly guides for varied audiences (both technical
                 and non-technical) covering topics such as component usage, typography, and accessibility best practices.
             </p> 
@@ -132,7 +132,7 @@ const MyWorkSection = () => {
             </p>
             <h4 className={styles.myWorkSubtitle}>Accessibility</h4>
             <p className={styles.myWorkText}>
-                Web accessibility is a core motivator in my work. As such, I've lead initiatives with both mobile and web teams,
+                Web accessibility is a core motivator in my work. As such, I've led initiatives with both mobile and web teams,
                 creating in-depth code standards, writing detailed documentation, and hosting
                 educational sessions for developers. In design reviews, I maintain a keen eye for accessibility pitfalls
                 and provide thoughtful, constructive feedback helping designers update their designs to meet all accessibility standards.
