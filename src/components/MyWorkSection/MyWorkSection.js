@@ -22,6 +22,8 @@ const MyWorkSection = () => {
                 strong focus on creating comprehensive documentation for design system tokens and components.
                 I develop clear and user-friendly guides for varied audiences (both technical
                 and non-technical) covering topics such as component usage, typography, and accessibility best practices.
+            </p> 
+            <p className={styles.myWorkText}>
                 Examples of my work can be found in our web component library on 
                 {' '}
                 <a
@@ -51,6 +53,8 @@ const MyWorkSection = () => {
                 Leveraging my extensive background in secondary and adult education, I have established a role as an educator on the UX engineering team.
                 I particularly enjoy distilling complex technical subjects into clear instructional materials and presentations for developers
                 and designers. I prioritize delivering an engaging curriculum, ensuring that content is appropriate for diverse audiences and learning styles.
+            </p> 
+            <p className={styles.myWorkText}>
                 Samples and recordings of presentations can be viewed in my portfolio below.
             </p>
             <a href={DeveloperEducationPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
