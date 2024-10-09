@@ -28,7 +28,9 @@ const MyWorkSection = () => {
                 {' '}
                 <a
                     href="https://vivian-storybook.s3.amazonaws.com/master/index.html"
-                    className={styles.storybookLink}    
+                    className={styles.storybookLink}
+                    target="_blank"
+                    rel="noopener noreferrer"    
                 >
                 Storybook
                 </a>
@@ -37,7 +39,9 @@ const MyWorkSection = () => {
                 {' '}
                 <a
                     href={PortfolioPDF}
-                    className={styles.storybookLink}    
+                    className={styles.storybookLink}
+                    target="_blank"
+                    rel="noopener noreferrer"    
                 >
                 technical writing portfolio.
                 </a>
@@ -77,28 +81,50 @@ const MyWorkSection = () => {
                 {' '}
                 <a
                     href="https://vivian-storybook.s3.amazonaws.com/master/index.html"
-                    className={styles.storybookLink}    
+                    className={styles.storybookLink}
+                    target="_blank"
+                    rel="noopener noreferrer"    
                 >
                     You can check out our web component library and UI documentation on Storybook here.
                 </a>
                 {' '}
                 On Storybook,
                 {' '}
-                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-modal--basic-modal" className={styles.storybookLink}>
+                <a
+                    href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-modal--basic-modal"
+                    className={styles.storybookLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     Modal,
                 </a>
                 {' '}
-                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-dialog--basic-dialog" className={styles.storybookLink}>
+                <a
+                    href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-dialog--basic-dialog"
+                    className={styles.storybookLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     Dialog,
                 </a>
                 {' '}
-                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-toast--basic-toast" className={styles.storybookLink}>
+                <a
+                    href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-toast--basic-toast"
+                    className={styles.storybookLink}
+                    target="_blank"
+                    rel="noopener noreferrer"    
+                >
                     Toast,
                 </a> 
                 {' '}
                    and
                 {' '}
-                <a href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-menu--basic" className={styles.storybookLink}>
+                <a
+                    href="https://vivian-storybook.s3.amazonaws.com/master/index.html?path=/docs/base-menu--basic"
+                    className={styles.storybookLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     Menu
                 </a>
                 {' '}

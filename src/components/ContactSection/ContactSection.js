@@ -14,19 +14,36 @@ const ContactSection = () => {
             <div className={styles.contactWrapper}>
                 <ul className={styles.contactList}>
                     <li>
-                        <a href="https://www.linkedin.com/in/cristinalpena/" className={styles.contactLink} aria-label="LinkedIn Profile">
+                        <a
+                            href="https://www.linkedin.com/in/cristinalpena/"
+                            className={styles.contactLink}
+                            aria-label="LinkedIn Profile"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <Unicons.UilLinkedin />
                             CristinaLPena
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/CLPena" className={styles.contactLink} aria-label="GitHub Profile">
+                        <a
+                            href="https://github.com/CLPena"
+                            className={styles.contactLink}
+                            aria-label="GitHub Profile"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <Unicons.UilGithub />
                             CLPena
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:CristinaLPena@gmail.com" className={styles.contactLink}>
+                        <a
+                            href="mailto:CristinaLPena@gmail.com"
+                            className={styles.contactLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <Unicons.UilEnvelope />
                             CristinaLPena@gmail.com
                         </a>
