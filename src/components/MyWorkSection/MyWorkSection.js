@@ -72,7 +72,7 @@ const MyWorkSection = () => {
                 components, fostering a harmonious partnership between design and
                 engineering. I approach my work with a strong emphasis on empathy, consistently
                 upholding design principles and accessibility standards. These efforts have led
-                to increased velocity for both developers and designers, while also fostering
+                to increased velocity for developers and designers, while also facilitating
                 collaboration and ensuring inclusivity.
             </p>
             <p className={styles.myWorkText}>
