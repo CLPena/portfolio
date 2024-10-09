@@ -140,7 +140,7 @@ const MyWorkSection = () => {
             <h4 className={styles.myWorkSubtitle}>Front End Engineering</h4>
             <p className={styles.myWorkText}>
                 Before joining Vivian's UX engineering team, I contributed significantly as a
-                front end engineer from 2020-2021, where I implemented various user-facing features, working collaboratively with back end engineers,
+                front end engineer from 2020-2021, where I implemented user-facing features in collaboration with back-end engineers.
                 This background informs my holistic approach to my role as a UX engineer.
             </p>
         </SectionLayout>
