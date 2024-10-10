@@ -17,6 +17,10 @@ const MyWorkSection = () => {
                 Vivian Health | UX Engineer | 2020 - Present
             </h3>
             <h4 className={styles.myWorkSubtitle}>Technical Writing</h4>
+            <a href={PortfolioPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
+                <Unicons.UilFile />
+                View technical writing portfolio
+            </a>
             <p className={styles.myWorkText}>
                 As a UX Engineer, I have made significant contributions through technical writing, focusing
                 on creating comprehensive documentation for design system tokens and components.
@@ -48,23 +52,16 @@ const MyWorkSection = () => {
                 {' '}
                 These examples highlight my core skills and dedication to crafting documentation that promotes seamless cross-functional collaboration.
             </p>
-            <a href={PortfolioPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
-                <Unicons.UilFile />
-                View technical writing portfolio
-            </a>
             <h4 className={styles.myWorkSubtitle}>Developer Education</h4>
+            <a href={DeveloperEducationPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
+                <Unicons.UilFile />
+                View developer education portfolio
+            </a>
             <p className={styles.myWorkText}>
                 Leveraging my extensive background in secondary and adult education, I have established a role as an educator on the UX engineering team.
                 I particularly enjoy distilling complex technical subjects into clear instructional materials and presentations for developers
                 and designers. I prioritize delivering an engaging curriculum, ensuring that content is appropriate for diverse audiences and learning styles.
             </p> 
-            <p className={styles.myWorkText}>
-                Samples and recordings of presentations can be viewed in my portfolio below.
-            </p>
-            <a href={DeveloperEducationPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
-                <Unicons.UilFile />
-                View developer education portfolio
-            </a>
             <h4 className={styles.myWorkSubtitle}>Design Systems</h4>
             <p className={styles.myWorkText}>
                 As a dedicated UX Engineer at Vivian Health, I've played an instrumental
