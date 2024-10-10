@@ -6,11 +6,13 @@
     margin-bottom: 1rem;
     color: $teal;
     font-family: OpenSauceSansBold;
+    font-size: 1.25rem;
 }
 
 .myWorkSubtitle {
     margin: 0 0 1rem;
     font-family: OpenSauceSansBold;
+    font-size: 1.125rem;
 }
 
 .myWorkText {
@@ -22,14 +24,14 @@
 }
 
 .portfolioLink {
-    font-family: OpenSauceSansRegular;
+    font-family: OpenSauceSansBold;
     display: inline-flex;
     gap: .25rem;
     padding: 0 0 .25rem;
     text-decoration: underline;
     color: $teal;
     outline-color: $teal;
-    font-weight: bold;
+    margin: 0 0 1rem;
 
     &:visited {
       color: $teal;
@@ -37,10 +39,6 @@
         color: $teal;
       }
     }
-}
-
-.portfolioLink {
-    margin: 0 0 1rem;
 }
 
 .storybookLink {
@@ -55,4 +53,10 @@
     &:visited {
         color: $teal;
     }
+}
+
+.myWorkSections {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
 }
