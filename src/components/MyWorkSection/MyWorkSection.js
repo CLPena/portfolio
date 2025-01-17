@@ -121,6 +121,31 @@ const MyWorkSection = () => {
                         {' '}
                         are good examples of my recent work.
                     </p>
+                    <p className={styles.myWorkText}>
+                        If you're curious about my approach to building design systems and component libraries, check out 
+                        {' '}
+                        <a
+                            href="https://drive.google.com/file/d/1lHpUNeImW-WNkbS-l22S5xSyHCq-pKcV/view"
+                            className={styles.storybookLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            this presentation
+                        </a>
+                        {' '}
+                        and
+                        {' '}
+                        <a
+                            href="https://podcasts.apple.com/us/podcast/ux-engineering-with-cristina-pe%C3%B1a/id1121073494?i=1000654163722"
+                            className={styles.storybookLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            this podcast,
+                        </a>
+                        {' '}
+                        where I dive into my process and share insights from my work as a UX Engineer.
+                    </p>
                 </div>
                 <div>
                     <h4 className={styles.myWorkSubtitle}>Developer Education</h4>
