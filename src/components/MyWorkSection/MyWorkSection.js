@@ -56,18 +56,6 @@ const MyWorkSection = () => {
                     </p>
                 </div>
                 <div>
-                    <h4 className={styles.myWorkSubtitle}>Developer Education</h4>
-                    <a href={DeveloperEducationPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
-                        <Unicons.UilFile />
-                        View developer education portfolio
-                    </a>
-                    <p className={styles.myWorkText}>
-                        Leveraging my extensive background in secondary and adult education, I have established a role as an educator on the UX engineering team.
-                        I particularly enjoy distilling complex technical subjects into clear instructional materials and presentations for developers
-                        and designers. I prioritize delivering an engaging curriculum, ensuring that content is appropriate for diverse audiences and learning styles.
-                    </p> 
-                </div>
-                <div>
                     <h4 className={styles.myWorkSubtitle}>Design Systems</h4>
                     <p className={styles.myWorkText}>
                         As a dedicated UX Engineer at Vivian Health, I've played an instrumental
@@ -133,6 +121,18 @@ const MyWorkSection = () => {
                         {' '}
                         are good examples of my recent work.
                     </p>
+                </div>
+                <div>
+                    <h4 className={styles.myWorkSubtitle}>Developer Education</h4>
+                    <a href={DeveloperEducationPDF} target="_blank" rel="noreferrer" className={styles.portfolioLink}>
+                        <Unicons.UilFile />
+                        View developer education portfolio
+                    </a>
+                    <p className={styles.myWorkText}>
+                        Leveraging my extensive background in secondary and adult education, I have established a role as an educator on the UX engineering team.
+                        I particularly enjoy distilling complex technical subjects into clear instructional materials and presentations for developers
+                        and designers. I prioritize delivering an engaging curriculum, ensuring that content is appropriate for diverse audiences and learning styles.
+                    </p> 
                 </div>
                 <div>
                     <h4 className={styles.myWorkSubtitle}>Accessibility</h4>
