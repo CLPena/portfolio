@@ -11,7 +11,7 @@ const AboutMeSection = () => {
             iconAltText="Sparkles illustration"
         >
             <p className="aboutMeText">
-            Hi! I'm a technical writer, developer educator, and UX Engineer passionate about design systems,
+            Hi! I'm a Technical Writer, UX Engineer, and Developer Educator passionate about design systems,
             inclusivity, and cross-functional collaboration. I'm driven by empathy to create user-centered and
             accessible component libraries, thorough documentation, and engaging instructional resources.
             Away from my keyboard, you can find me traveling, reading, or snuggling our dogs.
