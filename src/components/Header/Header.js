@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Header.module.scss';
 import cornerSquiggles from './cornerSquiggles.svg';
-import * as Unicons from '@iconscout/react-unicons';
 
 const Header = () => {
     return (
